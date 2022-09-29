@@ -16,6 +16,8 @@ ipython notebooks containing most of the code
 
 6. RandomForest+HOG model trained on FER-2013 and CK+
 
+7. A report showing the detailed explaination
+
 
 There are ground-truth data for videos labelled by human annotators:
 
