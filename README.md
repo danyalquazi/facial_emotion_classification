@@ -1,19 +1,24 @@
-# facial_emotion_classification
- There are multiple notebooks each with different tasks. Multiple excel files containing some outputs from the tasks.
- 
- 
- This study is a series of experiments attempting
-to classify emotions from a collection of videos annotated with
-the help of a survey. There are broadly three approaches; the
-first employs a Convolutional Neural Network, and the second
-combines a Histogram of Oriented Gradients (HOG) feature
-descriptor and ML models like SVM, KNN and Random Forest.
-The third approach uses an off-the-shelf, open-source python
-library, ’FER’, to classify the emotions from videos. FER-2013
-and CK+ datasets are used to train models separately. Finally, the
-results from the experiments are compared to find the techniques
-that perform better on videos and images. It observed that models
-perform significantly better on images compared to videos. The
-paper discusses the challenges that arise when dealing with video
-data and possible reasons that cause accuracy to fall when videos
-are analyzed compared to images.
+The Source Code 
+
+CONTENTS:
+
+ipython notebooks containing most of the code
+
+1.  CNN model trained on FER-2013
+
+2.  CNN model trained on CK+
+
+3.  FER API To prodict emotions in Videos
+
+4. SVM+HOG model trained on FER-2013 and CK+ 
+
+5. KNN+HOG model trained on FER-2013 and CK+
+
+6. RandomForest+HOG model trained on FER-2013 and CK+
+
+
+There are ground-truth data for videos labelled by human annotators:
+
+GroundTruthData.csv
+
+And output of all the models trained on the two datasets and their predictions on videos. 
